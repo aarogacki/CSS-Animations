@@ -1,0 +1,31 @@
+body {
+    font-family: Lato;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #FCAD26; 
+    font-size: 16px;
+    font-weight: 300px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #EFA424;
+}
+
+.btn:hover {
+    box-shadow: 0 4px #EFA424;
+    top : 2px
+}
+
+.btn:active {
+    box-shadow: none;
+    top : 6px;
+}
